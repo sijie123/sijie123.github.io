@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Si Jie's Home</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Si Jie's homepage"
+    />
+    <meta
+      property="og:description"
+      content="Welcome to my site!"
+    />
+    <meta property="og:url" content="http://home.sijie123.com" />
+    <meta
+      property="og:site_name"
+      content="Si Jie's homepage"
+    />
+    <meta property="og:image" content="http://home.sijie123.com/assets/img/preview.png" />
+    <meta name="author" content="Si Jie" />
+    <meta
+      name="description"
+      content="Si Jie's homepage"
+    />
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a
+            id="logo-container"
+            aria-label="Navigate to the beginning of the page"
+            href="#intro"
+            class="brand-logo teal-text"
+          >
+            <h1>
+              Si Jie LIN<span class="brown-text light"
+                >Software Engineer</span
+              >
+            </h1></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Awards section"
+            href="#awards"
+            class="waves-effect waves-dark red-text"
+            ><i class="mdi-action-grade small"></i><span>Awards</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open resume in a new tab"
+            href="https://sijie123.com/Resume_Lin_Si_Jie.pdf"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1">
+      <a
+        aria-label="Toggle visibility of the mobile navbar"
+        href="#"
+        data-activates="slide-out"
+        class="button-collapse"
+        ><i class="mdi-navigation-menu"></i
+      ></a>
+      <div class="name-title">
+        <a
+          id="name"
+          aria-label="Navigate to the beginning of the page"
+          href="#main"
+          class="teal-text"
+          >Si Jie LIN</a
+        ><span class="brown-text light">Software Engineer</span>
+      </div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Awards section"
+            href="#awards"
+            class="waves-effect waves-dark red-text"
+            ><i class="mdi-action-grade small"></i><span>Awards</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open resume in a new tab"
+            href="https://sijie123.com/Resume_Lin_Si_Jie.pdf"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <h1>
+            Lin Si Jie <span class="underline"></span>
+          </h1>
+          <h4>
+            A <span class="teal">software engineer</span> from <span class="underline">Singapore</span>
+            </h4>
+          <hr>
+          <div class="logos">
+            <a href="https://instagram.com/sijie123"><i class="fa fa-instagram"></i></a>
+            <a href="https://facebook.com/sijie123"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/sijie123"><i class="fa fa-github"></i></a>
+            <a href="mailto:sijie123@gmail.com"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>
+              Programming to me is really about creating something exciting, something I love and care about. And I won’t stop till I’m there.
+            </h2>
+          </blockquote>
+          <p>
+            I've always thought of myself as a <a href="https://en.wikipedia.org/wiki/Hacker_culture">hacker</a>.
+            I love tinkering -- taking things apart, understanding how things work and perhaps even piecing it back together with a 'lil something extra.
+            Sometimes, I succeed; Other times, well, I guess I'll just have to keep trying till I'm there!
+          </p>
+          <p>
+            <strong>Current Focus</strong>: 
+            <a>DevOps (Deployment)</a>&nbsp;//&nbsp;
+            <a>NodeJS (BackEnd)</a>
+          </p>
+        </div>
+      </section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="Shopee logo"
+                      src="/assets/img/shopee.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Shopee</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Intern / Platform Engineering Group</div>
+              I interned with Shopee for 3 months, developing an automated database failover system that focused on maintaining high availability and data integrity.
+            </div>
+            <div class="card-action">
+              <span>May 2019 - Aug 2019 | Singapore, SG</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="IOI logo"
+                      src="/assets/img/ioi.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >IOI 2020</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Host Technical Committee Member</div>
+              <p>
+              The International Olympiad in Informatics is one of several international science Olympiads held annually around the world. Exceptional high school students from various countries compete in the prestigious algorithmic competition to sharpen their informatics skills—such as problem analysis, design of algorithms and data structures, programming, and testing.
+              </p>
+              <br>
+              <p>
+              I am part of the Host Technical Committee, and will be responsible for developing and maintaining an internal communication platform, as well as the task translation system.
+              </p>
+            </div>
+            <div class="card-action">
+              <span>Aug 2018 - Present | Singapore, SG</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="NOI logo"
+                      src="/assets/img/noi.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >NOI 2017-2020</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Technical/Operations Committee Member</div>
+              <p>
+                The Singapore National Olympiad in Informatics (NOI) is modelled after the International Olympiad in Informatics (IOI), the ultimate international competition in computing (Informatics is the European term for computer science). NOI emphasises creativity in problem solving on the one hand, and programming skill and expertise on the other.
+              </p>
+              <br>
+              <p>
+                I am part of the technical committee in organising NOI 2017-2020, and I am responsible for setting up, managing the automated judge and ensuring integrity of the competition.
+              </p>
+            </div>
+            <div class="card-action">
+              <span>March 2017 - Present | Singapore, SG</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="MrJudge logo"
+                      src="/assets/img/mrjudge.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Mr Judge</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Developer</div>
+              <p>
+                Mrjudge is an online judge developed with two of my close friends. Originally intended as an internal training platform, it has now expanded and used by over 1,500 trainers and students. It contains training problems from past programming contests.
+              </p>
+              <br>
+              <p>
+                I am part of the technical committee in organising NOI 2017-2020, and I am responsible for setting up, managing the automated judge and ensuring integrity of the competition.
+              </p>
+            </div>
+            <div class="card-action">
+              <span>Jan 2017 - Present | Singapore, SG</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="NUS logo"
+                      src="/assets/img/nus.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >NUS</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Teaching Assistant</div>
+              <p>
+                I have gained experience as a Teaching Assistant for the following courses at School of Computing, National University of Singapore:
+                <ul>
+                <li>CS2040: Data Structure and Algorithms (8 iterations)</li>
+                <li>CS2030: Programming Methodology II (1 iteration)</li>
+                <li>CS1010: Programming Methodology I (1 iteration)</li>
+                </ul>
+                <br>
+                I was placed on the Honour List of Student Tutors twice for my teaching excellence.
+              </p>
+            </div>
+            <div class="card-action">
+              <span>Jan 2017 - Present | Singapore, SG</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <img
+                      alt="TT logo"
+                      src="/assets/img/tt.png"
+                      class="responsive-img center-block"
+                  />
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >TinkerTanker</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Intern / Freelance Trainer</div>
+              <p>
+                I interned with TinkerTanker after National Service, before I started university.
+              </p>
+              <p>
+                I developed the GetHacking iOS app, a digital maker project in collaboration with IMDA Singapore, which allows anyone to program a micro:bit from scratch on their phones.
+              </p>
+              <p>
+                I also worked on hardware projects, including a real-life Keep Talking and Nobody Explodes clone, built with Arduino and Raspberry Pi.
+              </p>
+            </div>
+            <div class="card-action">
+              <span>Jan 2017 - Present | Singapore, SG</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <div class="col s12 m2"><img
+                      alt="TT logo"
+                      src="/assets/img/nus.png"
+                      class="responsive-img center-block"
+                  /></div>
+                  <div class="col s12 m10">
+                    <span class="card-title"
+                      ><a href="https://nus.edu.sg" class="teal-text hoverline"
+                        >National University of Singapore</a
+                      ></span
+                    >
+                    <p class="brown-text">&nbsp;Singapore</p>
+                  </div>
+                  </p>
+                  <br>
+                  <br>
+                  <br>
+                  <p>Bachelor in Computing (Honours) | Computer Science | CAP: 4.94</p>
+                  <i>Recipient of the NUS Merit Scholarship</i>
+                  <p>I am currently a Year 3 student in NUS. <br>Expected graduation: Dec 2020</p>
+                  <br>
+                  <p>Notable modules taken:
+                    <ul>
+                      <li>CS3233 Competitive Programming | Dr Steven Halim</li>
+                      <li>CS3281 Thematic Systems Project | A/P Damith C. Rajapakse</li>
+                      <li>CS4222 Wireless Networking | A/P Chan Mun Choon</li>
+                      <li>CS4231 Distributed and Parallel Algorithms | Prof. Yu Haifeng</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <div class="col s12 m2"><img
+                      alt="TT logo"
+                      src="/assets/img/kth.png"
+                      class="responsive-img center-block"
+                  /></div>
+                  <div class="col s12 m10">
+                    <span class="card-title"
+                      ><a href="https://kth.se" class="teal-text hoverline"
+                        >KTH Royal Inst. of Technology</a
+                      ></span
+                    >
+                    <p class="brown-text">&nbsp;Stockholm, Sweden</p>
+                  </div>
+                  
+                  </p>
+                  <br>
+                  <br>
+                  <br>
+                  <p>Exchange Student | School of Electrical Engineering & Computer Science</p>
+                  <br>
+                  <p>I went to KTH in Stockholm, Sweden for one semester on NUS Student Exchange Programme. While there, I took courses in AI, Computer Vision and Machine Learning.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="section scrollspy">
+        <h3 class="page-title white-text teal">Awards</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Global Top 1000</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    Google CodeJam 2018 & 2019
+                  </p>
+                  <p>
+                      Code Jam is Google's longest running global coding competition, where programmers of all levels put their skills to the test. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Deans List</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    National University of Singapore, 2018 & 2019
+                  </p>
+                  <p>
+                      The Deans' List is awarded to the top 5% of the cohort each semester.
+                      <br>
+                      I have been called to the Deans List a total of 3 times for academic excellence in 2018 and 2019.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Champion Team</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    Google Games 2017
+                  </p>
+                  <p>
+                      My team was the champion team in the Google Games 2017.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >NUS Merit Scholarship</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    National University of Singapore, 2017 - 2020
+                  </p>
+                  <p>
+                      I have been awarded the NUS Merit Scholarship to study Computer Science.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >1st Runner Up</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    TechInAsia Hackathon, 2014
+                  </p>
+                  <p>
+                      During the hackathon, we developed ZenStorage, a system designed to merge different cloud storage systems with encrypted, distributed and redundant storage.
+                      My team was place 1st Runner Up for the Hackathon.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        class="teal-text hoverline"
+                        >Silver Award</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    National Olympiad in Informatics, 2014
+                  </p>
+                  <p>
+                    The Singapore National Olympiad in Informatics (NOI) is modelled after the International Olympiad in Informatics (IOI), the ultimate international competition in computing.
+                    I was awarded the Silver medal for the competition.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- DoYouEvenMath-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of DoYouEvenMath web app"
+                    src="/assets/img/doyouevenmath.png"
+                    class="activator"
+                    style="height: 100%; width: auto"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Do You Even Math<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A fun math minigame developed as part of a course to understand society's perspective towards competition.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Do You Even Math<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A fun math minigame developed as part of a course to understand society's perspective towards competition.
+                  <div class="card-action">
+                    <a
+                      aria-label="Play Do You Even Math"
+                      href="https://doyouevenmath.sijie123.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="Play Game"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit Github Repo"
+                      href="https://github.com/sijie123/doyouevenmath"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MrJudge -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of MrJudge"
+                    src="/assets/img/mrjudgeSS.png"
+                    class="activator"
+                    style="height: 100%; width: auto"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >MrJudge<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    An online judge for Algorithmics training.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >MrJudge<i class="mdi-navigation-close right"></i
+                  ></span>
+                  An online judge for Algorithmics training.
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit MrJudge"
+                      href="https://dunjudge.me"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View MrJudge"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Seer-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Seer"
+                    src="/assets/img/seer.png"
+                    class="activator"
+                    style="height: 100%; width: auto"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Seer<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    An browser proctoring system for distributed examinations and competitions featuring automatic recording and one-way video feeds.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Seer<i class="mdi-navigation-close right"></i
+                  ></span>
+                  An browser proctoring system for distributed examinations and competitions featuring automatic recording and one-way video feeds.
+                  <br>
+                  <br>
+                  The system was first developed for NOI 2020 amidst the COVID-19 situation.
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Github Repo"
+                      href="https://github.com/sijie123/seer"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source (Currently Private)"
+                      class="btn-floating btn-large waves-effect waves-light grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MarkBind-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of MarkBind"
+                    src="/assets/img/markbind.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >MarkBind<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A tool for generating static websites from markdown-like syntax. Optimized for content-heavy instructional websites (e.g. course websites, documentations)
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >MarkBind<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A tool for generating static websites from markdown-like syntax. Optimized for content-heavy instructional websites (e.g. course websites, documentations)
+                  <br>
+                  <br>
+                  I added functionality to allow dynamic URL references within MarkBind.
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit MarkBind"
+                      href="https://markbind.org"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View MarkBind"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                    <a
+                      aria-label="Visit Github Repo"
+                      href="https://github.com/MarkBind/markbind"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- AB4-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of AB4"
+                    src="/assets/img/ab4.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >SE-EDU AddressBook<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A series of Java projects with increasing size and complexity, to be used as examples (or starter projects) in SE courses.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >SE-EDU AddressBook<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A series of Java projects with increasing size and complexity, to be used as examples (or starter projects) in Software Engineering courses.
+                  <br>
+                  <br>
+                  I migrated testing functionality from JUnit 4 to the new JUnit 5. 
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit SE-EDU"
+                      href="https://se-education.org/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="Visit SE-EDU"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                    <a
+                      aria-label="Visit Github Repo"
+                      href="https://github.com/se-edu/addressbook-level4"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View AddressBook-Level4 Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kattis Hint Giver-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of KattisHintGiver"
+                    src="/assets/img/kattishintgiver.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Kattis Hint Giver<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A Chrome extension that fetches hints from cpbook.net/methodstosolve and displays it on Kattis.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Kattis Hint Giver<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A Chrome extension that fetches hints from cpbook.net/methodstosolve and displays it on Kattis.
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Kattis Hint Giver (Chrome Webstore)"
+                      href="https://chrome.google.com/webstore/detail/kattis-hint-giver/knifhpiffmhebgaaghnaaabokoflcdmn"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="Visit Kattis Hint Giver (Chrome Webstore)"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                    <a
+                      aria-label="Visit Github Repo"
+                      href="https://github.com/sijie123/kattisHint"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Kattis Hint Giver Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Notes-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Notes"
+                    src="/assets/img/notes.png"
+                    class="activator"
+                    style="height: 100%; width: auto"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >NUS Notes<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A collection of materials used throughout my studies at National University of Singapore.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >NUS Notes<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A collection of materials used throughout my studies at National University of Singapore.
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Si Jie's Notes"
+                      href="https://notes.sijie123.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Si Jie's Notes"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SQL-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of SQL Normalization Tool"
+                    src="/assets/img/sql.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >SQL Normalization Tool<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A tool that automatically computes various algorithms such as Keys, BCNF and 3NF given a database schema.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >SQL Normalization Tool<i class="mdi-navigation-close right"></i
+                  ></span>
+                  A tool that automatically computes various algorithms such as Keys, BCNF and 3NF given a database schema.
+                  <br>
+                  <br>
+                  My first project using React. Other tools coming soon!
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit SQL Normalization Tool"
+                      href="https://visual.sijie123.com/sql"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="Visit SQL Normalization Tool"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">DevOps</h4>
+              <div class="row text-center">
+                
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/ansible.png"
+                    class="responsive-img"
+                  />Ansible
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/docker.png"
+                    class="responsive-img"
+                  />Docker
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/kubernetes.png"
+                    class="responsive-img"
+                  />Kubernetes
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/travisci.png"
+                    class="responsive-img"
+                  />Travis CI
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/aws.png"
+                    class="responsive-img"
+                  />AWS
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Web Development</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/nodejs.png"
+                    class="responsive-img"
+                  />NodeJS
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/mongodb.png"
+                    class="responsive-img"
+                  />MongoDB
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/react.png"
+                    class="responsive-img"
+                  />React
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/jquery.png"
+                    class="responsive-img"
+                  />jQuery
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/html5.png"
+                    class="responsive-img"
+                  />HTML5
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/mysql.png"
+                    class="responsive-img"
+                  />MySQL
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Competitive Programming</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/cpp.png"
+                    class="responsive-img"
+                  />C++
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/java.png"
+                    class="responsive-img"
+                  />Java
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/python.png"
+                    class="responsive-img"
+                  />Python
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Others</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/android.png"
+                    class="responsive-img"
+                  />Android
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/telegram.png"
+                    class="responsive-img"
+                  />Telegram Bots
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/github.png"
+                    class="responsive-img"
+                  />GitHub
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/pandas.png"
+                    class="responsive-img"
+                  />Pandas Library
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p>
+            <a
+              aria-label="Email"
+              href="mailto:sijie123@gmail.com"
+              data-position="top"
+              data-tooltip="Email"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-envelope"></i
+              ><a
+                aria-label="Email"
+                href="mailto:sijie123@gmail.com"
+                class="hoverline"
+                >sijie123@gmail.com</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="GitHub"
+              href="http://github.com/sijie123"
+              target="_blank"
+              data-position="top"
+              data-tooltip="GitHub"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-github"></i
+              ><a
+                aria-label="Github"
+                href="http://github.com/sijie123"
+                class="hoverline"
+                >github.com/sijie123</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="Instagram"
+              href="http://instagram.com/sijie123"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Instagram"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-instagram"></i
+              ><a
+                aria-label="Instagram"
+                href="http://instagram.com/sijie123"
+                class="hoverline"
+                >@sijie123</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="Facebook"
+              href="http://facebook.com/sijie123"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Facebook"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-facebook"></i
+              ><a
+                aria-label="Facebook"
+                href="http://facebook.com/sijie123"
+                class="hoverline"
+                >facebook.com/sijie123</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="Resume"
+              href="http://sijie123.com/Resume_Lin_Si_Jie.pdf"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Resume"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-file"></i
+              ><a
+                aria-label="Facebook"
+                href="http://sijie123.com/Resume_Lin_Si_Jie.pdf"
+                class="hoverline"
+                >Download Resume</a
+              ></a
+            >
+          </p>
+          <!-- <p>
+            <a
+              aria-label="View Andrew on LinkedIn"
+              href="http://linkedin.com/in/andrewborstein"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Andrew on LinkedIn"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-linkedin"></i
+              ><a
+                aria-label="Andrew on LinkedIn"
+                href="http://linkedin.com/in/andrewborstein"
+                class="hoverline"
+                >linkedin.com/in/andrewborstein</a
+              ></a
+            >
+          </p> -->
+        </div>
+      </section>
+      <section id="acknowledgements" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Acknowledgements</h3>
+        <div class="container">
+          <p>
+            This site is made possible with the portfolio template from Andrew Borstein. Check out his website <a href="https://andrewborstein.com/">here</a>.
+          </p>
+        </div>
+      </section>
+      
+    </main>
+
+    <!--
+      Google Analytics
+      -------------------------------------------------
+      If you want to enable your own account, assign analyticsId to your
+      google analytics id, which should be the numbers following "UA-", e.g.
+      let analyticsId = "12345678-9"
+    -->
+    <script>
+      let analyticsId = "166097602-1"
+
+      // If analytics id has been manually defined
+      if (analyticsId) {
+        // Initialize GA with local var
+        initGoogleAnalytics(analyticsId)
+      }
+
+      // Set Up Google Analytics
+      function initGoogleAnalytics(analyticsId) {
+        if (analyticsId) {
+          // Inject the Google Analytics Tag Manager script into the DOM
+          analyticsUrl =
+            "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId
+          var ref = document.getElementsByTagName("script")[0]
+          var script = document.createElement("script")
+          script.src = analyticsUrl
+          ref.parentNode.insertBefore(script, ref)
+
+          // Initialize Google Analytics
+          window.dataLayer = window.dataLayer || []
+          function gtag() {
+            dataLayer.push(arguments)
+          }
+          gtag("js", new Date())
+          gtag("config", "UA-" + analyticsId)
+        }
+      }
+    </script>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function() {
+        $(".scrollspy").scrollSpy()
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        })
+      })
+    </script>
+
+  </body>
+</html>
